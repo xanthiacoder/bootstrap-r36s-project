@@ -17,6 +17,11 @@
 -- screen 1280 x 720 pixels
 -- 160 x 42 chars
 
+
+-- using cp437 font that is 8x16 px, font2x will allow 80x60 chars
+-- convert pixel art that is 16x16, 24x24, 32x32, 48x48, 64x64
+-- can do 8x8 too
+
 local json = require("lib.json")
 
 TEXT_WIDTH = "0---------1---------2---------3---------4---------5---------6---------7---------8---------9---------0---------1---------2---------3---------4---------5---------"
